@@ -164,12 +164,72 @@ A curated index of public AI agent skills, skill libraries, MCP servers, tool pa
 | OpenSkills | 通用 SKILL.md installer / loader，把 Anthropic-style skills 带到 Claude Code、Cursor、Windsurf、Aider、Codex 等 agent。 | Skill installer / Loader | [Open](https://github.com/numman-ali/openskills) |
 | Skill Seekers | 将框架文档或代码库转换成可用于 Cursor、Windsurf、Claude Code 等工具的规则 / skills。 | Skill / Rules generator | [Open](https://github.com/yusufkaraaslan/Skill_Seekers) |
 | AgentRC / AI Readiness Skills | GitHub Awesome Copilot 中的 AI readiness skills，用于评估 repo 的 AI tooling readiness 并生成 Copilot instructions。 | Copilot readiness skills | [Open](https://awesome-copilot.github.com/skills/) |
+
 ## MCP Servers / Agent Tools
 
 | Name | 简单描述 | 类型 | 链接 |
 |---|---|---|---|
-| GitHub MCP Server | GitHub 官方 MCP Server，让 AI agents 读取仓库、管理 Issues / PR、分析代码、处理工作流和自动化 GitHub 任务。 | MCP server | [Open](https://github.com/github/github-mcp-server) |
-| Awesome MCP Servers | 大型 MCP servers 目录，收集可供 AI agents 连接文件系统、数据库、API、浏览器和外部服务的 MCP servers。 | MCP server list | [Open](https://github.com/punkpeye/awesome-mcp-servers) |
+| Model Context Protocol Docs | MCP 官方文档，说明 MCP server、tools、resources、prompts、transports 和安全模型等基础概念。 | Documentation | [Open](https://modelcontextprotocol.io/docs/learn/server-concepts) |
+| Official MCP Registry | MCP 官方 registry，用于发现公开 MCP servers，并提供标准化 metadata、安装和配置入口。 | Official registry | [Open](https://registry.modelcontextprotocol.io/) |
+| MCP Registry Repository | MCP 官方 registry 的 GitHub 仓库，适合了解 MCP server metadata、发布流程和 registry 实现方式。 | Registry repository | [Open](https://github.com/modelcontextprotocol/registry) |
+| MCP Reference Servers | Model Context Protocol 官方 reference servers，用于学习 MCP server 实现方式和 SDK 用法。 | Reference servers | [Open](https://github.com/modelcontextprotocol/servers) |
+| GitHub MCP Registry | GitHub 的 MCP Registry，用于发现、安装和集成适合 Copilot、VS Code 和其他 MCP client 的服务器。 | MCP registry | [Open](https://github.com/mcp) |
+| Docker MCP Catalog | Docker 维护的 MCP Catalog，收集经过打包和验证的 MCP servers，可通过 Docker Desktop / Docker Hub 使用。 | MCP catalog | [Open](https://mcp.docker.com/) |
+| Docker MCP Registry | Docker 官方 MCP Registry 仓库，包含可被 Docker MCP Catalog、Docker Desktop MCP Toolkit 和 Docker Hub 使用的 server 定义。 | Registry repository | [Open](https://github.com/docker/mcp-registry) |
+| Docker Hub MCP Namespace | Docker Hub 上的 MCP verified publisher namespace，包含 GitHub、AWS、数据库、监控等多类 MCP server 镜像。 | Docker MCP images | [Open](https://hub.docker.com/u/mcp) |
+| Awesome MCP Servers | 大型 MCP servers 目录，收集 production-ready 和 experimental MCP servers，覆盖文件、数据库、API、浏览器和外部服务。 | Awesome list | [Open](https://github.com/punkpeye/awesome-mcp-servers) |
+| MCPServers.org | MCP servers 目录，收集官方和社区 MCP servers，包括 GitHub、Google、Supabase、Playwright、Firecrawl、Context7 等。 | MCP directory | [Open](https://mcpservers.org/) |
+| Glama MCP Registry | MCP server、client、tools 和 integrations 搜索目录，提供安全、兼容性和质量评分。 | MCP registry | [Open](https://glama.ai/mcp/servers) |
+| PulseMCP | 每日更新的 MCP server directory，收集大量公开 MCP servers、clients、posts 和 ecosystem 资源。 | MCP directory | [Open](https://www.pulsemcp.com/servers) |
+| Smithery | MCP server 搜索、部署和管理平台，用于发现并连接社区和官方 MCP servers。 | MCP registry / Deployment | [Open](https://smithery.ai/servers) |
+| Smithery CLI MCP | Smithery 官方 MCP installer，可用于搜索、收集配置并安装 MCP servers。 | MCP installer | [Open](https://github.com/smithery-ai/smithery-cli-mcp) |
+| GitHub MCP Server | GitHub 官方 MCP Server，让 agents 读取仓库、管理 Issues / PR、分析代码、处理 code scanning 和自动化工作流。 | Official MCP server | [Open](https://github.com/github/github-mcp-server) |
+| Google MCP Servers | Google 官方 MCP servers 总入口，包含 Google MCP server 列表、部署到 Google Cloud 的指导和示例。 | Official MCP collection | [Open](https://github.com/google/mcp) |
+| MCP Toolbox for Databases | Google 开源的 MCP Toolbox for Databases，用于让 AI agents、IDEs 和应用直接连接企业数据库。 | Database MCP server | [Open](https://github.com/googleapis/mcp-toolbox) |
+| AWS MCP Servers | AWS Labs 维护的开源 MCP servers，面向 AWS 文档、架构建议、云开发、基础设施和 AWS 服务操作。 | Cloud MCP collection | [Open](https://github.com/awslabs/mcp) |
+| AWS MCP Documentation | AWS MCP Servers 官方文档入口，介绍 AWS MCP servers 如何为 AI 应用提供 AWS 文档、上下文和最佳实践。 | Documentation | [Open](https://awslabs.github.io/mcp/) |
+| Cloudflare MCP Server | Cloudflare 官方 MCP server，可通过 MCP client 使用自然语言操作 Cloudflare 账号和服务。 | Cloud / Edge MCP server | [Open](https://github.com/cloudflare/mcp) |
+| Cloudflare Managed MCP Servers | Cloudflare 托管的远程 MCP servers，用于读取配置、管理服务和自动化 Cloudflare 账户操作。 | Managed MCP servers | [Open](https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/) |
+| Supabase MCP Server | Supabase 社区/官方支持的 MCP server，让 AI assistants 管理 Supabase 表、配置、数据库查询和项目上下文。 | Database / Backend MCP server | [Open](https://github.com/supabase-community/supabase-mcp) |
+| Supabase MCP Docs | Supabase MCP 官方文档，说明远程 MCP endpoint、本地开发 endpoint 和配置方式。 | Documentation | [Open](https://supabase.com/docs/guides/getting-started/mcp) |
+| Stripe MCP | Stripe 官方 MCP server，可通过远程 MCP endpoint 或本地 npm 包访问客户、产品、支付等 Stripe API 工具。 | Payment MCP server | [Open](https://docs.stripe.com/mcp) |
+| Stripe MCP Registry Entry | Stripe 在 GitHub MCP Registry 中的条目，说明 Stripe remote MCP server 和本地 `@stripe/mcp` 用法。 | MCP registry entry | [Open](https://github.com/mcp/com.stripe/mcp) |
+| Atlassian Rovo MCP Server | Atlassian 官方远程 MCP server，用于将 Jira、Confluence 和 Rovo Search 上下文接入外部 AI clients。 | Project / Knowledge MCP server | [Open](https://www.atlassian.com/platform/remote-mcp-server) |
+| Atlassian MCP Server Repository | Atlassian Rovo MCP Server 的 GitHub 仓库，可配合本地 MCP-compatible client 和 mcp-remote 使用。 | MCP server repository | [Open](https://github.com/atlassian/atlassian-mcp-server) |
+| Notion MCP Server | Notion 官方 MCP server，支持 STDIO 和 Streamable HTTP transport，用于连接 Notion API。 | Productivity MCP server | [Open](https://github.com/makenotion/notion-mcp-server) |
+| Notion MCP Client Integration Docs | Notion 官方 MCP client integration 文档，说明如何连接 Notion MCP server 和 OAuth discovery 流程。 | Documentation | [Open](https://github.com/makenotion/notion-cookbook/blob/main/docs/mcp-client-integration.md) |
+| Playwright MCP | Microsoft 官方 Playwright MCP server，让 LLM 通过结构化 accessibility snapshots 与网页交互。 | Browser automation MCP server | [Open](https://github.com/microsoft/playwright-mcp) |
+| Playwright MCP Docs | Playwright 官方 MCP 文档，说明如何在 VS Code、Cursor、Windsurf、Claude Desktop 等 MCP clients 中使用。 | Documentation | [Open](https://playwright.dev/docs/getting-started-mcp) |
+| Context7 | Upstash 的 Context7 MCP server，为 AI coding tools 提供最新、版本相关的库文档和代码示例。 | Documentation MCP server | [Open](https://github.com/upstash/context7) |
+| Context7 Website | Context7 官方网站，用于把最新文档和代码示例拉入 Cursor、Claude Code、Windsurf 等工具。 | Documentation tool | [Open](https://context7.com/) |
+| DeepWiki MCP | Devin / Cognition 官方 DeepWiki MCP server，用于访问 GitHub repo 的 wiki、结构化文档和问答能力。 | Codebase context MCP server | [Open](https://cognition.ai/blog/deepwiki-mcp-server) |
+| DeepWiki Docs | Devin 官方 DeepWiki 文档，说明 Public DeepWiki 和 DeepWiki MCP 的代码库文档与 Q&A 能力。 | Documentation | [Open](https://docs.devin.ai/work-with-devin/deepwiki) |
+| E2B MCP Server | E2B 官方 MCP server，为 Claude Desktop 等 MCP client 提供安全 sandbox 中的代码执行能力。 | Code execution MCP server | [Open](https://github.com/e2b-dev/mcp-server) |
+| E2B Custom MCP Servers | E2B 文档，说明如何在 E2B sandbox 中安全运行自定义 MCP servers。 | Sandbox / Security tool | [Open](https://e2b.dev/docs/mcp/custom-servers) |
+| Exa MCP Server | Exa 官方 MCP server，为 AI assistants 提供 web search、code search、web crawling 和 company research。 | Search MCP server | [Open](https://github.com/exa-labs/exa-mcp-server) |
+| Exa MCP Website | Exa MCP 官方页面，用于把 Exa 的搜索、代码搜索和研究能力接入 Claude、Cursor、VS Code 等 AI 工具。 | Search tool | [Open](https://exa.ai/mcp) |
+| Brave Search MCP Server | Brave 官方 MCP server，集成 Brave Search API，提供 web、local、place、image、video、news 和 LLM context search。 | Search MCP server | [Open](https://github.com/brave/brave-search-mcp-server) |
+| Firecrawl MCP Server | Firecrawl 官方 MCP server，为 Cursor、Claude 和其他 MCP clients 提供网页抓取、搜索、批处理和内容提取能力。 | Web scraping MCP server | [Open](https://github.com/firecrawl/firecrawl-mcp-server) |
+| Firecrawl | Firecrawl 主仓库和平台，提供适合 AI agents 的搜索、抓取、网页解析和结构化数据提取能力。 | Web data tool | [Open](https://github.com/firecrawl/firecrawl) |
+| Apify MCP Server | Apify 官方 MCP server，让 agents 使用 Apify Store 中的爬虫、scrapers、social media、maps、e-commerce 和自动化工具。 | Web automation MCP server | [Open](https://github.com/apify/apify-mcp-server) |
+| Apify MCP Servers | Apify MCP server 集合，用于把 Apify Actors 和 ready-built tools 接入 AI assistants。 | MCP server collection | [Open](https://github.com/apify/mcp-servers) |
+| Zapier MCP | Zapier 官方 MCP，用于把 Claude、ChatGPT、Cursor 等 AI clients 连接到 Zapier 的应用集成和自动化动作。 | Automation MCP server | [Open](https://docs.zapier.com/mcp/home) |
+| Zapier MCP Repository | Zapier MCP GitHub 仓库，用于把 AI assistants 连接到 Slack、Google Sheets、Gmail、Asana、GitHub、HubSpot 等服务。 | Automation MCP server | [Open](https://github.com/zapier/zapier-mcp) |
+| Pipedream MCP Server | Pipedream 官方 MCP server，提供 3,000+ apps/APIs 和 10,000+ pre-built tools，并处理 OAuth 与凭据存储。 | Automation MCP server | [Open](https://pipedream.com/docs/connect/mcp) |
+| Pipedream MCP Server App | Pipedream MCP 配置入口，用于连接 Pipedream 账户到 Cursor、Claude、Windsurf 等 AI tools。 | MCP endpoint | [Open](https://mcp.pipedream.com/app/pipedream) |
+| Composio MCP | Composio 的 MCP 和 direct API 工具平台，用于把 AI agents 连接到外部应用、认证和跨平台操作。 | Agent tool platform | [Open](https://composio.dev/toolkits/composio) |
+| Composio SDK | Composio SDK 仓库，提供 toolkits、tool search、context management、authentication 和 sandboxed workbench。 | Agent tool SDK | [Open](https://github.com/composiohq/composio) |
+| PostHog MCP | PostHog 官方 MCP server，用于让 AI agents 和工具直接操作 PostHog 产品、feature flags、experiments 和 analytics。 | Analytics MCP server | [Open](https://posthog.com/docs/model-context-protocol) |
+| PostHog MCP Repository | PostHog MCP GitHub 仓库，包含安装方式和迁移说明。 | MCP server repository | [Open](https://github.com/PostHog/mcp) |
+| Elastic MCP Server | Elastic 官方 Elasticsearch MCP server，让 AI agents 通过 MCP 查询、分析和检索 Elasticsearch indices。 | Search / Observability MCP server | [Open](https://github.com/elastic/mcp-server-elasticsearch) |
+| MiniMax MCP | MiniMax 官方 MCP server，用于接入 Text-to-Speech、image generation、video generation 和 voice cloning API。 | Media generation MCP server | [Open](https://github.com/minimax-ai/minimax-mcp) |
+| MiniMax Search MCP | MiniMax Search MCP server，提供 web search、browsing 和 image analysis 等 coding-plan 相关能力。 | Search / Vision MCP server | [Open](https://github.com/MiniMax-AI/minimax_search) |
+| XcodeBuildMCP | 面向 iOS/macOS 开发的 MCP server 和 CLI，让 AI agents 构建、测试、调试和部署 Xcode 项目。 | iOS / macOS MCP server | [Open](https://github.com/getsentry/XcodeBuildMCP) |
+| XcodeBuildMCP Website | XcodeBuildMCP 官方网站，介绍其 Xcode 自动化、模拟器、测试和部署能力。 | Documentation | [Open](https://www.xcodebuildmcp.com/) |
+| Slack MCP Plugin | Slack 官方插件配置，用于让 Cursor IDE 和 Claude Code agents 搜索消息、发送通信、管理 canvases 等。 | Slack agent plugin | [Open](https://github.com/slackapi/slack-mcp-plugin) |
+| MCP Atlassian | 社区高质量 Atlassian MCP server，支持 Jira 和 Confluence Cloud 以及 Server/Data Center。 | Jira / Confluence MCP server | [Open](https://github.com/sooperset/mcp-atlassian) |
+| Awesome Remote MCP Servers | 远程 MCP server 列表，收集 Stripe、Supabase、Square、ThoughtSpot 等可通过远程 URL 连接的 MCP servers。 | Remote MCP list | [Open](https://github.com/jaw9c/awesome-remote-mcp-servers/) |
+| Agent Package Manager | 面向 AGENTS.md、Agent Skills 和 MCP servers 的包管理工具，支持安装到 Copilot、Cursor、Claude、Codex、Gemini 等 agent。 | Agent package manager | [Open](https://awesome-copilot.github.com/tools/) |
 
 ## Cloud / DevOps Skills
 
