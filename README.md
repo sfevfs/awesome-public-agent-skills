@@ -55,9 +55,37 @@ A curated index of public AI agent skills, skill libraries, MCP servers, tool pa
 
 | Name | 简单描述 | 类型 | 链接 |
 |---|---|---|---|
-| VoltAgent Awesome Agent Skills | 社区维护的大型 Agent Skills 索引，收集官方团队和社区贡献的 agent skills。 | Awesome list | [Open](https://github.com/VoltAgent/awesome-agent-skills) |
-| AI Agents Skills | 面向 Claude Code、GitHub Copilot、Cursor、Windsurf、Cline、Aider、Continue.dev 等 coding agents 的技能集合。 | Skill collection | [Open](https://github.com/hoodini/ai-agents-skills) |
-| Awesome Claude Skills | Composio 维护的 Claude Skills、资源和工具列表，适合了解 Claude skill 生态。 | Awesome list | [Open](https://github.com/ComposioHQ/awesome-claude-skills) |
+| VoltAgent Awesome Agent Skills | 大型 Agent Skills 索引，收集官方团队和社区贡献的 skills，兼容 Claude Code、Codex、Gemini CLI、Cursor 等。 | Awesome list / Skill index | [Open](https://github.com/VoltAgent/awesome-agent-skills) |
+| Heilcheng Awesome Agent Skills | 社区维护的 Agent Skills 列表，重点收集真实工程团队使用的 skills，并支持 Claude、Copilot、Codex、Cursor 等。 | Community awesome list | [Open](https://github.com/heilcheng/awesome-agent-skills) |
+| JackyST0 Awesome Agent Skills | 精选 AI Agent Skills 列表，适用于 Cursor、Claude Code、GitHub Copilot 等 AI 编程工具，并提供在线搜索和安装脚本。 | Skill index / Search tool | [Open](https://github.com/JackyST0/awesome-agent-skills) |
+| Hoodini AI Agents Skills | 面向 Claude Code、Copilot、Cursor、Windsurf、Cline、Aider、Continue.dev 等 coding agents 的技能集合。 | Coding agent skills | [Open](https://github.com/hoodini/ai-agents-skills) |
+| Composio Awesome Claude Skills | Claude Skills、资源和工具列表，包含文档、开发、数据、研究、写作、自动化等方向。 | Claude skills awesome list | [Open](https://github.com/ComposioHQ/awesome-claude-skills) |
+| Karan Awesome Claude Skills | 社区整理的 Claude / Agent Skills 列表，强调可复用 skill、工具、资源和安全检查。 | Claude skills awesome list | [Open](https://github.com/karanb192/awesome-claude-skills) |
+| BehiSecc Awesome Claude Skills | Claude Skills 分类索引，覆盖文档、开发、数据分析、研究、写作、协作、安全和自动化等方向。 | Claude skills awesome list | [Open](https://github.com/BehiSecc/awesome-claude-skills) |
+| Travis Awesome Claude Skills | 面向 Claude AI workflows，尤其是 Claude Code 的 skills、资源和工具合集。 | Claude skills awesome list | [Open](https://github.com/travisvn/awesome-claude-skills) |
+| SkillCreator Awesome Agent Skills | SkillCreator.ai 整理的 Claude Skills、资源和工具列表，基于 Composio awesome-claude-skills 扩展。 | Claude skills awesome list | [Open](https://github.com/skillcreatorai/Awesome-Agent-Skills) |
+| Skillmatic Awesome Agent Skills | 面向 Agent Skills 概念和生态的资源索引，收集 skill 标准、工具和社区资源。 | Agent skills resource list | [Open](https://github.com/skillmatic-ai/awesome-agent-skills) |
+| CommandCodeAI Agent Skills | 面向 coding agent workflow 定制的 skills、资源和工具合集。 | Coding agent skills list | [Open](https://github.com/CommandCodeAI/agent-skills) |
+| Kodu Awesome Agent Skills | 面向 Claude Code、Codex、Cursor 等 AI coding agents 的 Agent Skills 列表。 | Coding agent skills list | [Open](https://github.com/kodustech/awesome-agent-skills) |
+| H4vzz Awesome AI Agent Skills | 提供 70+ ready-to-use skills，面向真实任务中的 AI agent 能力增强。 | Ready-to-use skill collection | [Open](https://github.com/h4vzz/awesome-ai-agent-skills) |
+| SIRFU3G0 Awesome Agent Skills | AI coding agent skills、工具和教程集合，用于增强 Claude、Codex、Copilot 等 agent 的能力。 | Coding agent resources | [Open](https://github.com/SIRFU3G0/awesome-agent-skills) |
+| Alireza Claude Skills | 大型 Claude Code skills / agent plugins 集合，包含工程、产品、营销、项目管理、商业、金融等多个 skill 包。 | Claude Code skills marketplace | [Open](https://github.com/alirezarezvani/claude-skills) |
+| Daymade Claude Code Skills | Claude Code skills marketplace，包含 production-ready skills，并支持通过 Claude Code plugin marketplace 安装。 | Claude Code plugin marketplace | [Open](https://github.com/daymade/claude-code-skills) |
+| Netresearch Claude Code Marketplace | Netresearch 维护的 Claude Code / AI-assisted development Agent Skills marketplace。 | Claude Code plugin marketplace | [Open](https://github.com/netresearch/claude-code-marketplace) |
+| Obra Superpowers Marketplace | Claude Code plugin marketplace，包含 TDD、调试、协作、计划执行和 Claude Code 插件开发相关 skills。 | Claude Code plugin marketplace | [Open](https://github.com/obra/superpowers-marketplace) |
+| Jimmc414 Claude Code Plugin Marketplace | 社区 Claude Code plugin marketplace，收集 skills、agents、commands 和 hooks。 | Claude Code plugin marketplace | [Open](https://github.com/jimmc414/claude-code-plugin-marketplace) |
+| Lttr Claude Marketplace | 个人维护的 Claude Code plugin marketplace，用于分发 Claude Code extensions / plugins。 | Claude Code plugin marketplace | [Open](https://github.com/lttr/claude-marketplace) |
+| N Skills | 面向 AI agents 的 curated plugin marketplace，可配合 Claude Code、Codex 和 OpenSkills 使用。 | Skill marketplace | [Open](https://github.com/numman-ali/n-skills) |
+| OpenSkills | 通用 SKILL.md installer / loader，把 Anthropic-style skills 带到 Claude Code、Cursor、Windsurf、Aider、Codex 等 agent。 | Skill installer / Loader | [Open](https://github.com/numman-ali/openskills) |
+| AbsolutelySkilled | 开放式 AI Agent Skills registry，收集 production-ready skills，面向 Claude Code、Gemini CLI、OpenAI Codex、Cursor 等。 | Public skill registry | [Open](https://github.com/AbsolutelySkilled/AbsolutelySkilled) |
+| LobeHub Skills Marketplace | 面向 Claude Code、Codex CLI、ChatGPT、Cursor、OpenClaw 等 agent 的公开 skills marketplace。 | Public skill marketplace | [Open](https://lobehub.com/skills) |
+| AwesomeSkills.dev | 面向 Claude Code、OpenAI Codex、Cursor 等 agent 的 skills directory，收集官方和社区 skill packs。 | Skill directory | [Open](https://www.awesomeskills.dev/en) |
+| SkillsLLM | 开源 AI skills marketplace，按 AI Agents、MCP Servers、Code Generation、DevOps 等类别索引 skills。 | Skill marketplace / Directory | [Open](https://skillsllm.com/) |
+| ClawHub | OpenClaw 的公开 skill registry，用于发布、搜索和版本管理基于 `SKILL.md` 的 text-based agent skills。 | OpenClaw skill registry | [Open](https://github.com/openclaw/clawhub) |
+| Diversio Agent Skills Marketplace | 基于 open Agent Skills standard 的 marketplace metadata 仓库，用于组织和分发 agent skills。 | Skill marketplace metadata | [Open](https://github.com/DiversioTeam/agent-skills-marketplace) |
+| Awesome Claude Code | Claude Code 生态大型资源合集，包含 skills、hooks、slash commands、agent orchestrators、apps 和 plugins。 | Claude Code ecosystem list | [Open](https://github.com/hesreallyhim/awesome-claude-code) |
+| GetBindu Awesome Claude Code and Skills | Claude skills、agents、tools 和开发工作流资源集合，覆盖 coding、安全、营销和专业领域。 | Claude skills resource list | [Open](https://github.com/GetBindu/awesome-claude-code-and-skills) |
+| CodeAlive Awesome Agent Skills | CodeAlive 早期的 general-purpose agent skills 集合；仓库已归档，适合作为历史参考。 | Archived skill collection | [Open](https://github.com/CodeAlive-AI/awesome-agent-skills) |
 
 ## Claude / Anthropic Skills
 
