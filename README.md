@@ -120,14 +120,50 @@ A curated index of public AI agent skills, skill libraries, MCP servers, tool pa
 | Web Artifacts Builder | Anthropic 示例 skill，用于构建 Claude artifacts、Web 原型、交互式页面和可视化内容。 | Web artifact skill | [Open](https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder) |
 | Webapp Testing | Anthropic 示例 skill，用于测试 Web 应用、检查交互流程、定位 UI 问题和验证网页行为。 | Testing skill | [Open](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) |
 | XLSX | Anthropic 文档处理 skill，用于创建、读取、编辑和分析 Excel `.xlsx` 表格文件。 | Spreadsheet skill | [Open](https://github.com/anthropics/skills/tree/main/skills/xlsx) |
+
 ## Copilot / Coding Agent Skills
 
 | Name | 简单描述 | 类型 | 链接 |
 |---|---|---|---|
-| Microsoft Skills | 面向 Azure SDKs、Microsoft AI Foundry 和 AI coding agents 的 skills、custom agents、AGENTS.md 模板和 MCP 配置。 | Coding agent skills | [Open](https://github.com/microsoft/skills) |
-| Vercel Agent Skills | 面向 AI coding agents 的技能集合，适合收集前端、React、Next.js 和工程实践类 skills。 | Coding agent skills | [Open](https://github.com/vercel-labs/agent-skills) |
-| AI Agents Skills | 面向多种 coding agents 的技能集合，支持 Claude Code、Copilot、Cursor、Windsurf、Cline、Aider 等。 | Coding agent skills | [Open](https://github.com/hoodini/ai-agents-skills) |
-
+| GitHub Awesome Copilot | GitHub 组织下的 Copilot 资源集合，包含 agents、instructions、skills、plugins、hooks、workflows 和 cookbook。 | Copilot ecosystem | [Open](https://github.com/github/awesome-copilot) |
+| Awesome Copilot Skills Directory | GitHub Awesome Copilot 的 skills 页面，可搜索和下载 Copilot agent skills。 | Copilot skills directory | [Open](https://awesome-copilot.github.com/skills/) |
+| GitHub Copilot Agent Skills Announcement | GitHub Copilot 支持 Agent Skills 的官方更新说明，解释 skills 如何被 Copilot 自动加载。 | Official announcement | [Open](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills/) |
+| VS Code Agent Skills Docs | VS Code / Copilot 官方文档，说明如何使用 `.github/skills/`、共享 skills 和扩展贡献 skills。 | Documentation | [Open](https://code.visualstudio.com/docs/copilot/customization/agent-skills) |
+| GitHub Copilot Agent Skills Guidelines | GitHub Awesome Copilot 中的 Agent Skills 编写指南，用于创建高质量、可移植的 Copilot skills。 | Skill authoring guide | [Open](https://github.com/github/awesome-copilot/blob/main/instructions/agent-skills.instructions.md) |
+| Suggest Awesome GitHub Copilot Skills | 用于分析当前仓库并推荐适合安装的 GitHub Awesome Copilot skills。 | Copilot recommendation skill | [Open](https://github.com/github/awesome-copilot/blob/main/skills/suggest-awesome-github-copilot-skills/SKILL.md) |
+| OpenAI Skills | OpenAI / Codex 官方 skills catalog，收集 Codex 可使用和分发的 Agent Skills。 | Codex skill catalog | [Open](https://github.com/openai/skills) |
+| OpenAI Codex Agent Skills Docs | OpenAI Codex 官方文档，说明 skills 的创建、存放位置、触发方式和分发方式。 | Codex documentation | [Open](https://developers.openai.com/codex/skills) |
+| Reusable Codex Skills Guide | OpenAI Codex use case 文档，说明如何把重复工作流保存为 Codex skills。 | Codex workflow guide | [Open](https://developers.openai.com/codex/use-cases/reusable-codex-skills) |
+| Anthropic Claude Code Plugins | Claude Code 官方插件目录，包含 code review、feature development、frontend design、PR review、plugin development 等 coding workflow。 | Claude Code plugins | [Open](https://github.com/anthropics/claude-code/tree/main/plugins) |
+| Claude Code Skill Development | Anthropic Claude Code 中的 skill-development skill，用于指导创建和改进 Claude Code plugin skills。 | Skill development | [Open](https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev/skills/skill-development) |
+| Claude Code Plugin Marketplace Docs | Claude Code 官方文档，说明如何创建、发布和分发包含 skills、agents、hooks、MCP servers 的 plugin marketplace。 | Marketplace docs | [Open](https://code.claude.com/docs/en/plugin-marketplaces) |
+| Vercel Agent Skills | Vercel 官方 AI coding agent skills，包含 React / Next.js 性能、Web 设计、React Native 等工程实践。 | Frontend coding skills | [Open](https://github.com/vercel-labs/agent-skills) |
+| Vercel Skills CLI | Vercel 的 `npx skills` 工具，用于向 Claude Code、Codex、Cursor、Copilot 等多种 agent 安装和管理 skills。 | Skill installer / CLI | [Open](https://github.com/vercel-labs/skills) |
+| Vercel Agent Skills Docs | Vercel 官方 Agent Skills 文档，整理 React、Next.js、deployment、Slack app 等 coding agent skills。 | Documentation / Skill directory | [Open](https://vercel.com/docs/agent-resources/skills) |
+| Microsoft Skills | Microsoft 面向 Azure SDKs、Microsoft AI Foundry、M365 agents、AGENTS.md、MCP 配置和 AI coding agents 的 skills 仓库。 | Microsoft coding skills | [Open](https://github.com/microsoft/skills) |
+| Google Skills | Google 官方 Agent Skills，覆盖 Google Cloud、Firebase、Gemini API、GKE、BigQuery 等，可用于 coding agents 获取产品级开发指令。 | Google Cloud coding skills | [Open](https://github.com/google/skills) |
+| Flutter Skills | Flutter 团队维护的 Agent Skills，面向 Flutter app 开发、布局、导航、JSON、测试和常见工程流程。 | Flutter coding skills | [Open](https://github.com/flutter/skills) |
+| Dart / Flutter Dash Skills | Dart 与 Flutter 相关 agent skills，适合 AI coding agents 处理 Dart / Flutter 项目。 | Dart / Flutter skills | [Open](https://github.com/kevmoo/dash_skills) |
+| Expo Skills | Expo 官方 AI agent skills，用于构建、部署、调试 Expo 和 React Native 应用。 | Mobile coding skills | [Open](https://github.com/expo/skills) |
+| Addy Osmani Agent Skills | 面向 AI coding agents 的生产级工程 skills，覆盖 spec、plan、build、test、review、ship 等开发生命周期。 | Engineering workflow skills | [Open](https://github.com/addyosmani/agent-skills) |
+| Agent Skill Creator | 将任意 workflow 转成可安装到 Claude Code、Copilot、Cursor、Windsurf、Codex、Gemini、Kiro 等工具的 Agent Skill。 | Skill creator / Generator | [Open](https://github.com/FrancyJGLisboa/agent-skill-creator) |
+| Tech Leads Club Agent Skills | 面向专业 AI coding agents 的安全验证 skill registry，支持 Antigravity、Claude Code、Cursor、Copilot 等。 | Validated skill registry | [Open](https://github.com/tech-leads-club/agent-skills) |
+| AGENTS.md | 面向 AI coding agents 的开放 Markdown 指令格式，用于提供项目结构、构建命令、测试流程和代码风格。 | Coding agent instruction standard | [Open](https://agents.md/) |
+| AGENTS.md Generator Skill | 生成和维护 AGENTS.md 文件的 Agent Skill，支持 Claude Code、Cursor、GitHub Copilot 和其他兼容 agents。 | AGENTS.md skill | [Open](https://github.com/netresearch/agent-rules-skill) |
+| Awesome Cursor Skills | Cursor skills 合集，收集可放入 `.cursor/skills/` 的 `SKILL.md` 文件，用于工程 workflow 和项目脚手架。 | Cursor skills list | [Open](https://github.com/spencerpauly/awesome-cursor-skills) |
+| Cursor Skills Notes | Cursor Agent Skills 说明文档，解释 Cursor skills 的目录结构、触发方式和使用场景。 | Cursor skills docs | [Open](https://github.com/hutchic/.cursor/blob/main/docs/cursor-skills.md) |
+| Windsurf Agents | Windsurf agent skills、workflows 和自动化脚本集合，面向 Windsurf / Cascade 开发工作流。 | Windsurf skills / Workflows | [Open](https://github.com/zenmindhacker/windsurf-agents) |
+| Hoodini AI Agents Skills | 面向 Claude Code、GitHub Copilot、Cursor、Windsurf、Cline、Aider、Continue.dev 等 coding agents 的技能集合。 | Multi-agent coding skills | [Open](https://github.com/hoodini/ai-agents-skills) |
+| VoltAgent Awesome Agent Skills | 大型 Agent Skills 索引，兼容 Claude Code、Codex、Gemini CLI、Cursor 等，可筛选 coding agent skills。 | Skill index | [Open](https://github.com/VoltAgent/awesome-agent-skills) |
+| Kodu Awesome Agent Skills | 面向 Claude Code、Codex、Cursor 等 AI coding agents 的 Agent Skills 列表。 | Coding agent skills list | [Open](https://github.com/kodustech/awesome-agent-skills) |
+| Alireza Claude Skills | 大型 Claude Code skills / agent plugins 集合，包含软件工程、架构、测试、代码质量、DevOps 等技能包。 | Claude Code skills marketplace | [Open](https://github.com/alirezarezvani/claude-skills) |
+| Daymade Claude Code Skills | Claude Code skills marketplace，包含 production-ready development workflow skills。 | Claude Code skills marketplace | [Open](https://github.com/daymade/claude-code-skills) |
+| Netresearch Claude Code Marketplace | Netresearch 维护的 Claude Code / AI-assisted development Agent Skills marketplace。 | Claude Code plugin marketplace | [Open](https://github.com/netresearch/claude-code-marketplace) |
+| Obra Superpowers Marketplace | Claude Code plugin marketplace，包含 TDD、调试、协作、计划执行和 Claude Code 插件开发相关 skills。 | Claude Code plugin marketplace | [Open](https://github.com/obra/superpowers-marketplace) |
+| N Skills | 面向 AI agents 的 curated plugin marketplace，可配合 Claude Code、Codex 和 OpenSkills 使用。 | Skill marketplace | [Open](https://github.com/numman-ali/n-skills) |
+| OpenSkills | 通用 SKILL.md installer / loader，把 Anthropic-style skills 带到 Claude Code、Cursor、Windsurf、Aider、Codex 等 agent。 | Skill installer / Loader | [Open](https://github.com/numman-ali/openskills) |
+| Skill Seekers | 将框架文档或代码库转换成可用于 Cursor、Windsurf、Claude Code 等工具的规则 / skills。 | Skill / Rules generator | [Open](https://github.com/yusufkaraaslan/Skill_Seekers) |
+| AgentRC / AI Readiness Skills | GitHub Awesome Copilot 中的 AI readiness skills，用于评估 repo 的 AI tooling readiness 并生成 Copilot instructions。 | Copilot readiness skills | [Open](https://awesome-copilot.github.com/skills/) |
 ## MCP Servers / Agent Tools
 
 | Name | 简单描述 | 类型 | 链接 |
