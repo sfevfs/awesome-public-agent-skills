@@ -91,9 +91,35 @@ A curated index of public AI agent skills, skill libraries, MCP servers, tool pa
 
 | Name | 简单描述 | 类型 | 链接 |
 |---|---|---|---|
-| Anthropic Skills | Claude Skills 官方示例仓库，包含 `SKILL.md`、参考文件、脚本和复杂任务示例。 | Skill library | [Open](https://github.com/anthropics/skills) |
-| Document Skills in Anthropic Skills | Anthropic Skills 仓库中包含 docx、pdf、pptx、xlsx 等文档创建与编辑能力示例。 | Document skill | [Open](https://github.com/anthropics/skills/tree/main/skills) |
-
+| Anthropic Skills Repository | Anthropic 官方 Agent Skills 示例仓库，包含 Claude 可动态加载的 instructions、scripts 和 resources。 | Official skill library | [Open](https://github.com/anthropics/skills) |
+| Anthropic Agent Skills Specification | Anthropic 仓库中的 Agent Skills 规范，说明 `SKILL.md`、frontmatter、目录结构和 skill 格式。 | Specification | [Open](https://github.com/anthropics/skills/tree/main/spec) |
+| Anthropic Skill Template | Anthropic 官方 skill 模板，可作为创建新 `SKILL.md` skill 的起点。 | Skill template | [Open](https://github.com/anthropics/skills/tree/main/template) |
+| Agent Skills API Docs | Claude Platform 的 Agent Skills 文档，说明 skills 如何加载、触发、在 API 中使用，以及安全注意事项。 | Documentation | [Open](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) |
+| Claude Code Skills Docs | Claude Code 官方 skills 文档，说明如何创建、管理、分享和调用 Claude Code skills。 | Documentation | [Open](https://code.claude.com/docs/en/skills) |
+| What are Skills? | Claude Help Center 中对 Skills 的官方解释，说明 Anthropic Skills、Custom Skills、Organization Skills 和 Partner Skills 的区别。 | Documentation | [Open](https://support.claude.com/en/articles/12512176-what-are-skills) |
+| Use Skills in Claude | Claude Help Center 中的 Skills 使用说明，包含启用、发现、上传、分享和使用 Anthropic built-in skills 的流程。 | Documentation | [Open](https://support.claude.com/en/articles/12512180-use-skills-in-claude) |
+| How to Create Custom Skills | Claude Help Center 中的自定义 Skills 创建指南，适合学习如何打包和上传自己的 Claude skill。 | Documentation | [Open](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills) |
+| Equipping Agents with Agent Skills | Anthropic 工程博客，解释 Agent Skills 的设计思想、progressive disclosure、`SKILL.md` 结构和最佳实践。 | Engineering article | [Open](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) |
+| Claude Code Plugins Directory | Anthropic 官方 Claude Code Plugins 目录，其中 plugin 可以包含 commands、agents、skills 和 MCP 配置。 | Plugin directory | [Open](https://github.com/anthropics/claude-plugins-official) |
+| Claude Code Bundled Skills | Claude Code 内置 bundled skills，包括 `/simplify`、`/batch`、`/debug`、`/loop` 和 `/claude-api`。 | Built-in Claude Code skills | [Open](https://code.claude.com/docs/en/skills#bundled-skills) |
+| Claude Code Skill Development | Anthropic Claude Code 仓库中的 skill-development skill，用于指导创建、改进和组织 Claude Code plugin skills。 | Skill development | [Open](https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev/skills/skill-development) |
+| Algorithmic Art | Anthropic 示例 skill，用于生成算法艺术、创意图形和程序化视觉作品。 | Creative skill | [Open](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art) |
+| Brand Guidelines | Anthropic 示例 skill，用于按照品牌规范生成文档、展示材料和视觉内容。 | Branding skill | [Open](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines) |
+| Canvas Design | Anthropic 示例 skill，用于 Claude Canvas / design 场景中的布局、视觉设计和设计稿生成。 | Design skill | [Open](https://github.com/anthropics/skills/tree/main/skills/canvas-design) |
+| Claude API | Anthropic 示例 skill，用于构建、调试和优化 Claude API / Anthropic SDK 应用。 | API development skill | [Open](https://github.com/anthropics/skills/tree/main/skills/claude-api) |
+| Document Coauthoring | Anthropic 示例 skill，用于结构化协作文档写作、上下文收集、内容迭代和读者测试。 | Writing / Docs skill | [Open](https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring) |
+| DOCX | Anthropic 文档处理 skill，用于创建、读取、编辑和转换 Microsoft Word `.docx` 文件。 | Document skill | [Open](https://github.com/anthropics/skills/tree/main/skills/docx) |
+| Frontend Design | Anthropic 示例 skill，用于前端界面、视觉风格、组件布局和 Web UI 设计。 | Frontend / Design skill | [Open](https://github.com/anthropics/skills/tree/main/skills/frontend-design) |
+| Internal Comms | Anthropic 示例 skill，用于内部沟通、公告、邮件、团队更新和组织内信息表达。 | Communication skill | [Open](https://github.com/anthropics/skills/tree/main/skills/internal-comms) |
+| MCP Builder | Anthropic 示例 skill，用于构建 MCP servers、设计工具接口和连接外部系统。 | MCP development skill | [Open](https://github.com/anthropics/skills/tree/main/skills/mcp-builder) |
+| PDF | Anthropic 文档处理 skill，用于 PDF 读取、处理、表单填写、合并、拆分和内容提取。 | Document skill | [Open](https://github.com/anthropics/skills/tree/main/skills/pdf) |
+| PPTX | Anthropic 文档处理 skill，用于创建、读取、编辑和组合 PowerPoint `.pptx` 演示文稿。 | Presentation skill | [Open](https://github.com/anthropics/skills/tree/main/skills/pptx) |
+| Skill Creator | Anthropic 示例 skill，用于帮助创建、改进、组织和优化新的 Agent Skills。 | Skill authoring skill | [Open](https://github.com/anthropics/skills/tree/main/skills/skill-creator) |
+| Slack GIF Creator | Anthropic 示例 skill，用于生成适合 Slack 使用的 GIF、动图和轻量视觉内容。 | Creative / Communication skill | [Open](https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator) |
+| Theme Factory | Anthropic 示例 skill，用于生成主题、色彩方案、视觉风格和可复用设计系统。 | Design system skill | [Open](https://github.com/anthropics/skills/tree/main/skills/theme-factory) |
+| Web Artifacts Builder | Anthropic 示例 skill，用于构建 Claude artifacts、Web 原型、交互式页面和可视化内容。 | Web artifact skill | [Open](https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder) |
+| Webapp Testing | Anthropic 示例 skill，用于测试 Web 应用、检查交互流程、定位 UI 问题和验证网页行为。 | Testing skill | [Open](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) |
+| XLSX | Anthropic 文档处理 skill，用于创建、读取、编辑和分析 Excel `.xlsx` 表格文件。 | Spreadsheet skill | [Open](https://github.com/anthropics/skills/tree/main/skills/xlsx) |
 ## Copilot / Coding Agent Skills
 
 | Name | 简单描述 | 类型 | 链接 |
