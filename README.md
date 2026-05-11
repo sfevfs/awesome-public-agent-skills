@@ -342,8 +342,78 @@ A curated index of public AI agent skills, skill libraries, MCP servers, tool pa
 
 | Name | 简单描述 | 类型 | 链接 |
 |---|---|---|---|
-| Anthropic Document Skills | Anthropic Skills 中的文档处理 skills，可作为复杂文档生成、编辑和转换能力的参考。 | Document skill | [Open](https://github.com/anthropics/skills/tree/main/skills) |
-| Awesome MCP Servers | 可以从该列表中筛选数据库、文件系统、搜索、浏览器、知识库和数据分析相关 MCP servers。 | MCP server list | [Open](https://github.com/punkpeye/awesome-mcp-servers) |
+| Anthropic Document Skills | Anthropic 官方 skills 中的文档处理集合，包含 Word、PDF、PowerPoint、Excel 和协作文档相关能力。 | Document skill library | [Open](https://github.com/anthropics/skills/tree/main/skills) |
+| Anthropic DOCX | 创建、读取、编辑和分析 Microsoft Word `.docx` 文档，适合报告、合同、论文草稿和正式文档处理。 | Word document skill | [Open](https://github.com/anthropics/skills/tree/main/skills/docx) |
+| Anthropic PDF | 读取、提取、合并、拆分、旋转、加水印、填写表单和处理 PDF 文件。 | PDF skill | [Open](https://github.com/anthropics/skills/tree/main/skills/pdf) |
+| Anthropic PPTX | 创建、编辑、读取和组合 PowerPoint `.pptx` 演示文稿。 | Presentation skill | [Open](https://github.com/anthropics/skills/tree/main/skills/pptx) |
+| Anthropic XLSX | 创建、编辑、读取和分析 Excel `.xlsx` 表格，适合数据分析、公式、图表和财务模型。 | Spreadsheet skill | [Open](https://github.com/anthropics/skills/tree/main/skills/xlsx) |
+| Anthropic Document Coauthoring | 结构化协作文档写作 skill，用于文档共创、上下文收集、内容迭代和读者测试。 | Writing / Document skill | [Open](https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring) |
+| Anthropic Internal Comms | 用于内部沟通、公告、团队更新、邮件和组织内信息表达。 | Communication writing skill | [Open](https://github.com/anthropics/skills/tree/main/skills/internal-comms) |
+| OpenAI Skills | OpenAI / Codex 官方 skills catalog，包含 PDF、Jupyter、Notion、截图、语音、转录等数据和文档相关 skills。 | Codex skill catalog | [Open](https://github.com/openai/skills) |
+| OpenAI PDF | OpenAI curated PDF skill，用于读取、创建、检查和处理 PDF，强调渲染预览和版面检查。 | PDF skill | [Open](https://github.com/openai/skills/blob/main/skills/.curated/pdf/SKILL.md) |
+| OpenAI Jupyter Notebook | OpenAI curated Jupyter Notebook skill，适合数据探索、分析、实验记录和可复现 notebook 工作流。 | Notebook / Data analysis skill | [Open](https://github.com/openai/skills/tree/main/skills/.curated/jupyter-notebook) |
+| OpenAI Notion Knowledge Capture | 将信息整理进 Notion 知识库，适合研究笔记、资料沉淀和结构化知识管理。 | Knowledge management skill | [Open](https://github.com/openai/skills/tree/main/skills/.curated/notion-knowledge-capture) |
+| OpenAI Notion Meeting Intelligence | 面向会议纪要、行动项、总结和团队知识沉淀的 Notion workflow skill。 | Meeting / Knowledge skill | [Open](https://github.com/openai/skills/tree/main/skills/.curated/notion-meeting-intelligence) |
+| OpenAI Notion Research Documentation | 面向研究资料整理、调研文档、分析记录和知识库写入的 Notion skill。 | Research documentation skill | [Open](https://github.com/openai/skills/tree/main/skills/.curated/notion-research-documentation) |
+| OpenAI Screenshot | 用于截图分析、界面检查、视觉证据整理和基于图像的工作流记录。 | Screenshot / Visual evidence skill | [Open](https://github.com/openai/skills/tree/main/skills/.curated/screenshot) |
+| OpenAI Speech | 面向语音生成、音频输出和 speech workflow 的 OpenAI curated skill。 | Speech skill | [Open](https://github.com/openai/skills/tree/main/skills/.curated/speech) |
+| OpenAI Transcribe | 面向音频转录、会议记录、访谈整理和语音资料处理的 OpenAI curated skill。 | Transcription skill | [Open](https://github.com/openai/skills/tree/main/skills/.curated/transcribe) |
+| Codex Datasets and Reports | OpenAI Codex 数据分析用例，面向清洗数据、探索假设、建模、可视化和生成可复用报告。 | Data analysis guide | [Open](https://developers.openai.com/codex/use-cases/datasets-and-reports) |
+| Skywork Skills | Skywork Agent Skills for AI office suites，包含 AI PPT、Document、Excel、Search/DeepResearch、Image 和 Music。 | Office / Research skill library | [Open](https://github.com/SkyworkAI/Skywork-Skills) |
+| Skywork Doc | 从 prompts 和参考文件生成专业文档，支持 docx、pdf、html、markdown，并可结合网页搜索补充资料。 | Document generation skill | [Open](https://github.com/SkyworkAI/Skywork-Skills/tree/main/skywork-doc) |
+| Skywork PPT | 生成、模仿和编辑 PowerPoint，可从主题创建，也可用现有 `.pptx` 作为风格模板。 | Presentation skill | [Open](https://github.com/SkyworkAI/Skywork-Skills/tree/main/skywork-ppt) |
+| Skywork Excel | 创建 Excel 文件、写入数据、公式和图表，分析已有表格，并生成 HTML 分析报告。 | Spreadsheet / Data analysis skill | [Open](https://github.com/SkyworkAI/Skywork-Skills/tree/main/skywork-excel) |
+| Skywork Search | 面向实时信息检索、研究、事实核查和内容生成的 AI-powered web search skill。 | Search / DeepResearch skill | [Open](https://github.com/SkyworkAI/Skywork-Skills/tree/main/skywork-search) |
+| MiniMax Skills | MiniMax AI 团队的 skills 集合，包含文档、PDF、Excel、PPT、视觉分析和多模态工具能力。 | Multimodal / Document skill library | [Open](https://github.com/MiniMax-AI/skills) |
+| MiniMax DOCX | 面向 Word 文档创建、读取、编辑和结构化处理的 MiniMax skill。 | Word document skill | [Open](https://github.com/MiniMax-AI/skills/tree/main/skills/minimax-docx) |
+| MiniMax PDF | 面向 PDF 读取、生成、提取和复杂 PDF 处理的 MiniMax skill。 | PDF skill | [Open](https://github.com/MiniMax-AI/skills/tree/main/skills/minimax-pdf) |
+| MiniMax XLSX | 读取、分析、创建和编辑 Excel / CSV / TSV 文件，支持公式、格式和表格数据验证。 | Spreadsheet / Data skill | [Open](https://github.com/MiniMax-AI/skills/tree/main/skills/minimax-xlsx) |
+| MiniMax PPTX Generator | 用于生成 PowerPoint 演示文稿，适合报告、研究展示和汇报材料。 | Presentation skill | [Open](https://github.com/MiniMax-AI/skills/tree/main/skills/pptx-generator) |
+| MiniMax Vision Analysis | 面向图像、截图、视觉材料和多模态信息分析的 MiniMax skill。 | Vision analysis skill | [Open](https://github.com/MiniMax-AI/skills/tree/main/skills/vision-analysis) |
+| MiniMax Multimodal Toolkit | MiniMax 多模态工具 skill，可作为图像、文档、视觉和多媒体工作流的扩展能力。 | Multimodal toolkit | [Open](https://github.com/MiniMax-AI/skills/tree/main/skills/minimax-multimodal-toolkit) |
+| Univer Skills | Univer 官方 spreadsheet automation skills，面向 Claude Code、Codex 和 Cursor 的 workbook 自动化工作流。 | Spreadsheet automation skills | [Open](https://github.com/dream-num/skills) |
+| Univer CLI | workbook-native skill，用于表格检查、导入导出、公式审查、有限范围编辑和验证优先的电子表格处理。 | Spreadsheet CLI skill | [Open](https://github.com/dream-num/skills/tree/main/skills/univer-cli) |
+| Univer SIT | Git-shaped workbook repo workflow，用于表格版本历史、review session、diff、blame、push/pull 和协作交付。 | Spreadsheet collaboration skill | [Open](https://github.com/dream-num/skills/tree/main/skills/sit) |
+| Scientific Agent Skills | K-Dense-AI 的科学研究 skills 集合，覆盖科学数据库、Python 科学包、文献综述、数据分析、写作和科研图表。 | Scientific research skill library | [Open](https://github.com/K-Dense-AI/scientific-agent-skills) |
+| Scientific Literature Review | 面向系统性文献综述、meta-analysis、研究综合和跨数据库学术检索的 scientific skill。 | Literature review skill | [Open](https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/scientific-skills/literature-review) |
+| InternScience Awesome Scientific Skills | 面向科学研究的 Agent Skills 开放合集，适合作为继续发现科研 skills 的入口。 | Scientific skills index | [Open](https://github.com/InternScience/Awesome-Scientific-Skills) |
+| Agent Research Skills | 覆盖学术论文完整生命周期的 Claude Code skills，从文献搜索到论文写作、图表、引用、审稿和 slides。 | Academic research skill library | [Open](https://github.com/lingzhi227/agent-research-skills) |
+| Deep Research | 6 阶段系统性文献调查 skill，覆盖 frontier survey、deep dive、代码检索、综合和报告生成。 | Deep research skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/deep-research) |
+| Literature Search | 多源学术检索 skill，支持 Semantic Scholar、arXiv、OpenAlex、CrossRef 等来源。 | Academic search skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/literature-search) |
+| Literature Review | 多视角文献综述 skill，通过专家 persona 组织 grounded literature review。 | Literature review skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/literature-review) |
+| Idea Generation | 生成和评分研究想法，关注 interestingness、feasibility 和 novelty。 | Research ideation skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/idea-generation) |
+| Novelty Assessment | 通过多轮文献搜索和 harsh-critic 视角评估研究想法的新颖性。 | Novelty assessment skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/novelty-assessment) |
+| Research Planning | 设计研究计划、任务依赖图和实验推进路线。 | Research planning skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/research-planning) |
+| Data Analysis | 统计分析 skill，包含统计摘要、p-value 格式化和多轮代码审查流程。 | Statistical analysis skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/data-analysis) |
+| Paper Writing Section | 面向论文各章节的写作 skill，包含 section-specific guidance 和两轮 refinement。 | Academic writing skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/paper-writing-section) |
+| Related Work Writing | 面向 Related Work 的写作 skill，强调主题组织、对比关系和文献定位。 | Academic writing skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/related-work-writing) |
+| Survey Generation | 通过 RAG-based subsection writing 和 citation validation 生成完整 survey paper。 | Survey writing skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/survey-generation) |
+| Figure Generation | 生成 publication-quality matplotlib figures，并通过反馈循环改进图表质量。 | Scientific visualization skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/figure-generation) |
+| Table Generation | 将 JSON / CSV 结果转换成 LaTeX booktabs 表格，支持 bold-best、显著性标记和多数据集结果。 | Research table skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/table-generation) |
+| Citation Management | BibTeX harvesting、citation validation、去重和自动修复引用问题。 | Citation management skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/citation-management) |
+| LaTeX Formatting | 针对 ICML、ICLR、NeurIPS、AAAI、ACL 等会议模板进行 LaTeX 格式检查和修复。 | LaTeX formatting skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/latex-formatting) |
+| Paper Compilation | pdflatex + bibtex 编译 pipeline，包含自动修复错误的循环。 | Paper compilation skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/paper-compilation) |
+| Self Review | 使用多 persona 自动审稿，按 NeurIPS 风格生成 review、reflection 和 meta-review。 | Paper review skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/self-review) |
+| Paper Revision | 将 reviewer concerns 映射到论文部分，进行有针对性的修改并验证改进效果。 | Paper revision skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/paper-revision) |
+| Rebuttal Writing | 面向审稿意见的逐点 rebuttal 写作，强调证据支撑和回应结构。 | Rebuttal writing skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/rebuttal-writing) |
+| Slide Generation | 从论文生成 Beamer slides，提取论文元素、生成幻灯片骨架并简化内容。 | Research presentation skill | [Open](https://github.com/lingzhi227/agent-research-skills/tree/main/skills/slide-generation) |
+| Research Paper Review | BESSER-PEARL 的 research-paper-review skill，用于论文评审、方法分析、关键发现提取、数值一致性检查和创新性评估。 | Research paper review skill | [Open](https://github.com/BESSER-PEARL/agent-skills/blob/main/research-paper-review/SKILL.md) |
+| Academic Research Skills | 面向 Claude Code 的学术研究 skills，包含 deep research、quick review、lit-review、fact-check、systematic-review 等模式。 | Academic research skills | [Open](https://github.com/Imbad0202/academic-research-skills) |
+| Research Paper Writing Skills | 面向科研论文写作的 skills，适合摘要、引言、方法、实验、结论、段落逻辑和投稿前自查。 | Academic writing skills | [Open](https://github.com/Master-cai/Research-Paper-Writing-Skills) |
+| Agent Papers CLI | Agent-driven deep research workflow，包含面向科研工作流的 Claude Code skills 和 slash commands。 | Deep research CLI / Skills | [Open](https://github.com/collaborative-deep-research/agent-papers-cli) |
+| Hermes Research Paper Writing Pipeline | NousResearch Hermes Agent 中的 research paper writing pipeline，覆盖实验设计、执行、分析、写作、审稿和投稿。 | Research writing pipeline | [Open](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/skills/bundled/research/research-research-paper-writing.md) |
+| Eigent Agent Skills | 包含 PDF、DOCX 等 reusable AI agent skills，适合文档提取、编辑、OCR 和 office workflow。 | Document skill library | [Open](https://github.com/eigent-ai/agent-skills) |
+| Nymbo Skills | 收集高质量 agent skills，其中 document processing 部分包含 PDF、DOCX、PPTX、XLSX。 | Skill library / Document skills | [Open](https://github.com/Nymbo/Skills) |
+| FAR Skill | 文件分析和读取 skill，支持 PDF、Word、Excel、PowerPoint、图像 OCR 和多格式内容提取。 | File analysis skill | [Open](https://github.com/mr-kelly/far/blob/master/skills/far/SKILL.md) |
+| Working with Spreadsheets | 面向 Excel、财务模型、公式、格式和数据分析的 spreadsheet skill。 | Spreadsheet / Financial modeling skill | [Open](https://github.com/mjunaidca/mjs-agent-skills/blob/main/.claude/skills/working-with-spreadsheets/SKILL.md) |
+| Google Workspace CLI | Google Workspace CLI，可作为 Gmail、Drive、Calendar、Docs、Sheets、Slides、Forms、Keep 等办公数据 workflow 的入口。 | Workspace / Productivity tool | [Open](https://github.com/googleworkspace/cli) |
+| Notion MCP Server | Notion 官方 MCP server，用于连接 Notion API，适合知识库、文档和团队资料管理。 | Knowledge management MCP server | [Open](https://github.com/makenotion/notion-mcp-server) |
+| Exa MCP Server | Exa 官方 MCP server，提供 web search、code search、web crawling 和 company research。 | Search / Research MCP server | [Open](https://github.com/exa-labs/exa-mcp-server) |
+| Brave Search MCP Server | Brave Search MCP server，提供网页、本地、图片、视频、新闻和 LLM context search。 | Search MCP server | [Open](https://github.com/brave/brave-search-mcp-server) |
+| Firecrawl MCP Server | Firecrawl MCP server，提供网页抓取、搜索、批处理和结构化内容提取。 | Web data extraction MCP server | [Open](https://github.com/firecrawl/firecrawl-mcp-server) |
+| Apify MCP Server | Apify MCP server，让 agents 使用 Apify Store 中的 crawlers、scrapers、social media、maps 和 e-commerce 工具。 | Web automation / Data extraction MCP server | [Open](https://github.com/apify/apify-mcp-server) |
+| DeepWiki MCP | DeepWiki MCP server，用于访问 GitHub repo 的 wiki、结构化文档和代码库问答。 | Codebase documentation MCP server | [Open](https://cognition.ai/blog/deepwiki-mcp-server) |
+| Context7 | 为 AI coding tools 提供最新、版本相关的库文档和代码示例，可用于技术文档检索。 | Documentation MCP server | [Open](https://github.com/upstash/context7) |
 
 ## 安全与使用提示
 
