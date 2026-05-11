@@ -235,8 +235,47 @@ A curated index of public AI agent skills, skill libraries, MCP servers, tool pa
 
 | Name | 简单描述 | 类型 | 链接 |
 |---|---|---|---|
-| Google Skills | Google Cloud 官方 Agent Skills，覆盖 AlloyDB、BigQuery、Cloud Run、Cloud SQL、Firebase、Gemini API、GKE 等。 | Cloud skills | [Open](https://github.com/google/skills) |
-| Microsoft Skills | 面向 Azure SDKs 和 Microsoft AI Foundry 的 agent skills 与 MCP 配置。 | Cloud skills | [Open](https://github.com/microsoft/skills) |
+| Google Skills | Google 官方 Agent Skills 仓库，覆盖 Google Cloud、AlloyDB、BigQuery、Cloud Run、Cloud SQL、Firebase、Gemini API、GKE 等。 | Official cloud skills | [Open](https://github.com/google/skills) |
+| Microsoft Azure Agent Skills | Microsoft 官方 Azure Agent Skills，面向 Azure 云开发、架构、排障、安全、配置和最佳实践。 | Official Azure skills | [Open](https://github.com/MicrosoftDocs/Agent-Skills) |
+| Azure Agent Skills Docs | Microsoft Learn 上的 Azure Agent Skills 文档，说明 Azure skills 的用途、结构和使用方式。 | Documentation | [Open](https://learn.microsoft.com/en-us/training/support/agent-skills) |
+| Microsoft Skills | Microsoft 面向 Azure SDKs、Microsoft AI Foundry、M365 agents、AGENTS.md 和 MCP 配置的 skills 仓库。 | Microsoft cloud / SDK skills | [Open](https://github.com/microsoft/skills) |
+| Agent Toolkit for AWS | AWS 推荐的新一代 Agent Toolkit，用于让 AI coding agents 更可靠地架构、部署和操作 AWS。 | AWS agent toolkit | [Open](https://github.com/aws/agent-toolkit-for-aws) |
+| Agent Plugins for AWS | AWS Labs 的 agent plugins，帮助 AI coding agents 在 AWS 上做架构建议、部署和运维操作。 | AWS agent plugins | [Open](https://github.com/awslabs/agent-plugins) |
+| MCP Servers for AWS | AWS Labs 开源 MCP servers，为 AI applications 提供 AWS 文档、上下文、最佳实践和云服务工具。 | AWS MCP servers | [Open](https://github.com/awslabs/mcp) |
+| AWS MCP Documentation | AWS MCP Servers 官方文档入口，用于了解 AWS MCP server 的用途、安装和使用方式。 | Documentation | [Open](https://awslabs.github.io/mcp/) |
+| Cloudflare Skills | Cloudflare 官方 Agent Skills，面向 Workers、Pages、Agents SDK、Durable Objects 和 Cloudflare Developer Platform。 | Cloudflare skills | [Open](https://github.com/cloudflare/skills) |
+| Cloudflare MCP Server | Cloudflare 官方 MCP server，用于通过 AI clients 操作 Cloudflare 账户、服务和边缘平台资源。 | Cloud MCP server | [Open](https://github.com/cloudflare/mcp) |
+| Cloudflare Managed MCP Servers | Cloudflare 托管 MCP servers，用于让 AI agents 查询配置、管理资源和执行 Cloudflare 平台任务。 | Managed MCP servers | [Open](https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/) |
+| Vercel Agent Skills | Vercel 官方 agent skills，面向 AI coding agents，包含部署、React、Next.js、Web 设计和前端工程实践。 | Deployment / Frontend cloud skills | [Open](https://github.com/vercel-labs/agent-skills) |
+| Vercel Skills Docs | Vercel 官方 Agent Skills 文档，说明如何安装和使用 Vercel skills，以及支持哪些 agent。 | Documentation | [Open](https://vercel.com/docs/agent-resources/skills) |
+| Netlify Context and Tools | Netlify 官方 context-and-tools 仓库，包含 Netlify skills、Claude Code plugin 和 Cursor rules。 | Netlify deployment skills | [Open](https://github.com/netlify/context-and-tools) |
+| Netlify Deployment Skill | OpenAI Skills 中的 Netlify deployment skill，用于检测项目配置、链接站点并部署到 Netlify。 | Deployment skill | [Open](https://github.com/openai/skills/blob/main/skills/.curated/netlify-deploy/SKILL.md) |
+| Railway Skills | Railway 官方 agent skills，用于项目、服务、数据库、部署、变量、网络、域名、日志和故障排查。 | Railway cloud skills | [Open](https://github.com/railwayapp/railway-skills) |
+| Railway Agent Skills Docs | Railway 官方 Agent Skills 文档，说明 `use-railway` skill 的安装、支持工具和工作流覆盖范围。 | Documentation | [Open](https://docs.railway.com/ai/agent-skills) |
+| DigitalOcean App Platform Skills | DigitalOcean App Platform 官方 skills，面向部署、迁移、网络、数据库配置和生产故障排查。 | DigitalOcean deployment skills | [Open](https://github.com/digitalocean-labs/do-app-platform-skills) |
+| DigitalOcean App Platform Skills Blog | DigitalOcean 官方介绍 App Platform Skills 的文章，说明这些 skills 如何帮助 AI assistants 生成生产可用部署配置。 | Announcement / Guide | [Open](https://www.digitalocean.com/blog/deploy-smarter-with-ai-app-platform-skills-on-digitalocean) |
+| HashiCorp Agent Skills | HashiCorp 官方 Agent Skills，面向 Terraform、Packer、HCL、模块开发、provider 开发、测试和镜像构建。 | IaC / Terraform / Packer skills | [Open](https://github.com/hashicorp/agent-skills) |
+| HashiCorp Agent Skills Blog | HashiCorp 官方介绍 Agent Skills 的文章，说明 Terraform、Packer 和基础设施工作流中的使用场景。 | Announcement / Guide | [Open](https://www.hashicorp.com/en/blog/introducing-hashicorp-agent-skills) |
+| Pulumi Agent Skills | Pulumi 官方 Agent Skills，面向 Pulumi IaC、迁移、secret 管理、代码转换和高质量 Pulumi 程序编写。 | IaC skills | [Open](https://github.com/pulumi/agent-skills) |
+| Pulumi Agent Skills Docs | Pulumi 官方文档，列出 migration 和 authoring 两类 skills，包括 Terraform、CloudFormation、CDK、ARM/Bicep 到 Pulumi 的迁移。 | Documentation | [Open](https://www.pulumi.com/docs/ai/skills/) |
+| Terramate Agent Skills | Terramate 官方 agent skills，面向 Terraform/OpenTofu/Terramate 栈管理、编排、CI/CD、drift 和 Cloud 集成。 | IaC / Stack management skills | [Open](https://github.com/terramate-io/agent-skills) |
+| Terraform & OpenTofu Skill | Terraform / OpenTofu skill，覆盖测试、模块开发、远程 state、锁、迁移、CI/CD 和生产模式。 | Terraform / OpenTofu skill | [Open](https://github.com/antonbabenko/terraform-skill) |
+| FluxCD Agent Skills | FluxCD 相关 agent skills，帮助 AI agents 处理 GitOps 工程和 Kubernetes 集群排障。 | GitOps / Kubernetes skills | [Open](https://github.com/fluxcd/agent-skills) |
+| GitOps Cluster Debug | FluxCD agent skill 中的 GitOps 集群排障 skill，用于检查 Flux 资源状态、controller logs、依赖链和安装健康状态。 | GitOps debugging skill | [Open](https://github.com/fluxcd/agent-skills/blob/main/skills/gitops-cluster-debug/SKILL.md) |
+| KubeShark Kubernetes Skill | 面向 Claude Code 和 Codex 的 Kubernetes skill，用于生成和审查更安全的 Kubernetes、Helm、Kustomize 配置。 | Kubernetes skill | [Open](https://github.com/LukasNiessen/kubernetes-skill) |
+| Terminal Skills | 面向终端和 Kubernetes 的公开 Agent Skills，适合 DevOps 命令行操作和 Kubernetes 相关工作流。 | Terminal / Kubernetes skills | [Open](https://github.com/chaterm/terminal-skills) |
+| Dash0 Agent Skills | Dash0 的 OpenTelemetry skills，面向 instrumentation、Collector 配置、语义约定、OTTL 和可观测性工作流。 | Observability skills | [Open](https://github.com/dash0hq/agent-skills) |
+| Elastic Agent Skills | Elastic 官方 Agent Skills，面向 Elasticsearch、搜索、可观测性和 Elastic 平台相关工作流。 | Search / Observability skills | [Open](https://github.com/elastic/agent-skills) |
+| Elastic MCP Server | Elastic 官方 Elasticsearch MCP server，让 agents 通过 MCP 查询、检索和分析 Elasticsearch indices。 | Observability / Search MCP server | [Open](https://github.com/elastic/mcp-server-elasticsearch) |
+| Docker MCP Catalog | Docker MCP Catalog 收集经过打包的 verified MCP servers，适合 DevOps 环境中本地运行和管理 MCP servers。 | MCP catalog / DevOps tool | [Open](https://docs.docker.com/ai/mcp-catalog-and-toolkit/catalog/) |
+| Docker MCP Registry | Docker 官方 MCP Registry 仓库，包含可用于 Docker MCP Catalog 和 Docker Desktop MCP Toolkit 的 server 定义。 | MCP registry | [Open](https://github.com/docker/mcp-registry) |
+| Docker Agent | Docker Engineering 的 AI Agent Builder and Runtime，可用于创建、运行、打包和分发 agent 工作流。 | Agent runtime / DevOps tool | [Open](https://github.com/docker/docker-agent) |
+| Docker Development Skill | Docker image development skill，覆盖 Dockerfile 最佳实践、CI 测试模式和 Docker Compose 编排。 | Docker skill | [Open](https://github.com/netresearch/docker-development-skill) |
+| DevOps Skills for Claude Code and Codex | DevOps skill pack，包含生产配置生成器、验证器和 Kubernetes 集群排障 skill。 | DevOps skill pack | [Open](https://github.com/akin-ozer/cc-devops-skills) |
+| Cloud / DevOps Workflow Bundle | Cloud / DevOps workflow bundle，覆盖 AWS、Azure、GCP、Kubernetes、Terraform、CI/CD、监控和云原生开发。 | Workflow bundle | [Open](https://github.com/christophacham/agent-skills-library/blob/main/skills/devops/cloud-devops/SKILL.md) |
+| Awesome DevOps Skills | 自动整理的 DevOps 和 Cloud-Native Skills / MCP 仓库索引，适合继续发现更多 DevOps 相关项目。 | Awesome list / Index | [Open](https://github.com/derisk-ai/awesome-devops-skills) |
+| DevOps & CI/CD Skills Marketplace | Claude Code DevOps & CI/CD skills 分类页，收集部署、CI/CD、监控和基础设施相关 skills。 | Skill marketplace category | [Open](https://claudemarketplaces.com/skills/category/devops) |
+| Deployment & DevOps Agent Skills | MCPMarket 的 deployment & devops agent skills 分类，适合发现部署、CI/CD 和运维类 skills。 | Skill directory category | [Open](https://mcpmarket.com/tools/skills/categories/deployment-devops) |
 
 ## Coding / Software Engineering Skills
 
