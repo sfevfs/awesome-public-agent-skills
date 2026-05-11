@@ -281,8 +281,62 @@ A curated index of public AI agent skills, skill libraries, MCP servers, tool pa
 
 | Name | 简单描述 | 类型 | 链接 |
 |---|---|---|---|
-| Vercel React Best Practices Skill | Vercel Agent Skills 中的 React / Next.js 性能优化技能，适合 AI coding agent 做前端开发和代码审查。 | Coding skill | [Open](https://github.com/vercel-labs/agent-skills) |
-| GitHub MCP Server | 让智能体管理仓库、Issues、PR、CI/CD、releases 和项目结构，适合软件工程自动化任务。 | MCP server | [Open](https://github.com/github/github-mcp-server) |
+| Addy Osmani Agent Skills | 面向 AI coding agents 的生产级软件工程 skills，覆盖需求澄清、计划、实现、测试、审查和发布等完整工程流程。 | Engineering workflow skills | [Open](https://github.com/addyosmani/agent-skills) |
+| Matt Pocock Skills | 面向真实软件工程场景的 agent skills，强调工程基本功、可控流程和实际项目开发，而不是简单 vibe coding。 | Engineering skills | [Open](https://github.com/mattpocock/skills) |
+| Systango Agent Skill Library | 生产级 engineering skills 集合，用于让 AI coding agents 遵循 senior engineer 的工作流、质量门禁和最佳实践。 | Engineering skill library | [Open](https://github.com/SystangoTechnologies/agent-skill-library) |
+| Swell Coding Skills | 面向软件工程的 Anthropic-style skills，覆盖 TDD、Code Review、架构、GitHub Issues 项目管理和语言约定。 | Software engineering skills | [Open](https://github.com/swell-agents/coding-skills) |
+| Solid Skills | 面向 AI coding agents 的 SOLID、TDD、clean code 和专业软件设计 skills。 | Clean code / Design skills | [Open](https://github.com/ramziddin/solid-skills) |
+| Armory | 面向认真使用 AI 的开发者的生产级 coding agent skills，包含 TDD、安全、调试和开发流程。 | Engineering skill pack | [Open](https://github.com/Mathews-Tom/armory) |
+| Hypergiant Agent Skills | 面向 AI coding agents 的 skill 集合，包含 skill 管理、Next.js 最佳实践和安全模式等工程能力。 | Coding agent skills | [Open](https://github.com/gohypergiant/agent-skills) |
+| Softaworks Agent Toolkit | AI coding agent skills 集合，可用于 Claude Code、Claude.ai 或手动加载 `SKILL.md` 内容。 | Coding agent toolkit | [Open](https://github.com/softaworks/agent-toolkit) |
+| Iliaal AI Skills | 紧凑、偏工程决策的 coding agent skills，覆盖 React、Next.js、Node.js backend、测试和项目结构。 | Opinionated coding skills | [Open](https://github.com/iliaal/ai-skills) |
+| Claude Software Skills | 面向 Claude Code 的 55 个模块化软件开发 skills，覆盖架构、开发、测试、部署等环节。 | Claude Code software skills | [Open](https://github.com/miles990/claude-software-skills) |
+| Geekswamp Agent Skills | 可复用 Codex engineering skills，包含 Go 测试、Flutter 测试、changelog 和 Conventional Commit message 生成。 | Codex engineering skills | [Open](https://github.com/geekswamp/agent-skills) |
+| Yansir Agent Skills | 面向 coding agents 的实用技能集合，包括项目接手、重构、简化设计、重新思考方案和发布 skill。 | Engineering workflow skills | [Open](https://github.com/yansircc/agent-skills) |
+| Adeonir Agent Skills | 个人维护的 AI coding agent skills，覆盖调试循环、Git helpers、PR summaries、项目索引和代码审查。 | Engineering helper skills | [Open](https://github.com/adeonir/agents-skills) |
+| LLl0k0laD Agent Skills | 用结构化 workflow 和工程最佳实践增强 AI coding agents，偏向可靠 Web 应用开发。 | Web engineering skills | [Open](https://github.com/LLl0k0laD/agent-skills) |
+| Meta Agent Skills | 用于标准化和自动化软件工程流程的 meta-agent skills 框架。 | Meta engineering skills | [Open](https://github.com/yu-iskw/meta-agent-skills) |
+| Agent Toolkit | 面向 AI coding agents 的 production-ready skills 和 agents，覆盖 plan、build、test、debug、ship。 | Coding agent toolkit | [Open](https://github.com/jvalin17/agent-toolkit) |
+| Claude Skills Marketplace | Claude Code software engineering workflow skills，覆盖 Git automation、testing 和 code review。 | Claude Code skills marketplace | [Open](https://github.com/mhattingpete/claude-skills-marketplace) |
+| Wshobson Agents Skills | Claude plugin ecosystem 文档中包含大量 specialized skills，适合查找软件工程、语言、框架和工具类能力。 | Claude plugin / Skill ecosystem | [Open](https://github.com/wshobson/agents) |
+| AbsolutelySkilled | 开放式 AI Agent Skills registry，包含 requirements、planning、execution、verification、TDD、lint、typecheck 和 build checks。 | Skill registry | [Open](https://github.com/AbsolutelySkilled/AbsolutelySkilled) |
+| Vercel Agent Skills | Vercel 官方 AI coding agent skills，包含 React / Next.js 性能、Web 设计、组件组合和前端工程最佳实践。 | Frontend engineering skills | [Open](https://github.com/vercel-labs/agent-skills) |
+| Vercel React Best Practices | React 和 Next.js 性能优化 skill，适合编写、审查和重构 React / Next.js 代码。 | React / Next.js skill | [Open](https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md) |
+| Vercel Next Skills | Next.js Agent Skills，覆盖 Next.js 16、Cache Components、PPR、升级和 Next.js 工程最佳实践。 | Next.js skills | [Open](https://github.com/vercel-labs/next-skills) |
+| Next.js 16 Agent Skills | 面向 AI coding agents 的 Next.js、Prisma、AI SDK、Auth.js 等现代 Web 开发 skills。 | Next.js / Full-stack skills | [Open](https://github.com/gocallum/nextjs16-agent-skills) |
+| Agent Skills Hub | 跨平台 agent skills hub，包含 Angular 等 framework skills，可用于 OpenClaw、Claude Code、Gemini、Cursor、Antigravity 等。 | Framework skill hub | [Open](https://github.com/agent-skills-hub/agent-skills-hub) |
+| Angular Agent Kit | 面向 Angular 的 AI agent skills，包含 Angular 模板优化、结构化 skill 文件和多 agent 兼容支持。 | Angular skills | [Open](https://github.com/sajeetharan/angular-agent-kit) |
+| Angular Agent Skills | Angular 多版本支持和迁移相关 agent skills，适合 Angular 项目升级和组件模式迁移。 | Angular skills | [Open](https://github.com/araujomartin/angular-agent-skills) |
+| Gemini Angular Architect Skill | Gemini agent skill 中的 Angular architect skill，用于 Angular 架构、组件和工程模式。 | Angular architecture skill | [Open](https://github.com/saeed-vayghan/gemini-agent-skills/blob/master/.gemini/skills/angular-architect/SKILL.md) |
+| Clerk Skills | Clerk 官方 skills，帮助 AI coding agents 正确集成 Clerk 认证和用户管理，覆盖 Next.js、React、Vue、Nuxt、Astro、TanStack 等。 | Authentication skills | [Open](https://github.com/clerk/skills) |
+| Auth0 Agent Skills | Auth0 官方 agent skills，帮助 coding assistants 正确实现 Auth0 登录、认证和多框架集成。 | Authentication skills | [Open](https://github.com/auth0/agent-skills) |
+| Auth0 Quickstart Skill | Auth0 quickstart skill，可根据技术栈路由到 React、Next.js、Vue、Nuxt、Angular、Express、FastAPI、ASP.NET Core、React Native、Expo 等认证流程。 | Authentication quickstart skill | [Open](https://github.com/auth0/agent-skills/blob/main/plugins/auth0/skills/auth0-quickstart/SKILL.md) |
+| Laravel Agent Skills | Laravel 官方 agent skills，可作为 Claude Code 和 Cursor 插件使用，面向 Laravel、Laravel Cloud 和 Nightwatch。 | Laravel skills | [Open](https://github.com/laravel/agent-skills) |
+| Expo Skills | Expo 官方 AI agent skills，用于构建、部署、升级和调试 Expo / React Native 应用。 | Expo / React Native skills | [Open](https://github.com/expo/skills) |
+| Flutter Skills | Flutter 团队维护的 Agent Skills，用于 Flutter app 开发、布局、导航、测试和常见工程工作流。 | Flutter skills | [Open](https://github.com/flutter/skills) |
+| Dart / Flutter Dash Skills | Dart 与 Flutter ecosystem 的 Agent Skills，每个 skill 使用 `SKILL.md` 定义何时和如何被使用。 | Dart / Flutter skills | [Open](https://github.com/kevmoo/dash_skills) |
+| Flutter AI Rules | Flutter AI skills / rules，适合 Cursor、Copilot、Antigravity 等工具使用，覆盖 Flutter 架构、BLoC、测试和项目约定。 | Flutter skills / Rules | [Open](https://github.com/evanca/flutter-ai-rules) |
+| Agent Skills Library | 大型 agent skills library，包含移动端、Flutter、DevOps、后端、前端等多个领域 skills。 | Multi-domain skill library | [Open](https://github.com/christophacham/agent-skills-library) |
+| Agent Skills Standard | 面向多 framework / language 的 agent skills standard 示例库，包含 Flutter testing、Retrofit networking 等 skills。 | Framework skill library | [Open](https://github.com/HoangNguyen0403/agent-skills-standard) |
+| Supabase Agent Skills | Supabase 官方 agent skills，帮助 AI coding agents 正确使用 Supabase、Postgres、RLS、Edge Functions 和数据库工作流。 | Backend / Database skills | [Open](https://github.com/supabase/agent-skills) |
+| Stripe AI Skills | Stripe AI 仓库中的 skills，用于构建、修改和审查 Stripe 集成，包括支付、订阅、marketplaces 和安全 key handling。 | Payment integration skills | [Open](https://github.com/stripe/ai) |
+| Stripe Best Practices Skill | Stripe best practices skill，适合构建、修改或审查 Stripe 支付和 billing 集成。 | Stripe integration skill | [Open](https://github.com/stripe/ai/blob/main/skills/stripe-best-practices/SKILL.md) |
+| Remotion Skills | Remotion 官方 skills，用于 React programmatic video / animation 项目中的最佳实践和代码生成。 | React video skills | [Open](https://github.com/remotion-dev/skills) |
+| Remotion Best Practices Skill | Remotion best practices skill，适合处理 Remotion 代码、视频生成、React composition 和 animation。 | Remotion coding skill | [Open](https://github.com/remotion-dev/skills/blob/main/skills/remotion/SKILL.md) |
+| Hookdeck Agent Skills | Hookdeck agent skills，帮助 coding agents 处理 webhook、event gateway、本地测试和事件驱动架构。 | Webhook / Event skills | [Open](https://github.com/hookdeck/agent-skills) |
+| Hookdeck Webhook Skills | Webhook skills，提供 Express、Next.js、FastAPI 等场景下的签名验证、事件处理、重试和调试示例。 | Webhook skills | [Open](https://github.com/hookdeck/webhook-skills) |
+| BjornMelin Dev Skills | 面向 AI coding agents 的 reusable dev skills，覆盖 AI SDK、Codex、LangGraph、Supabase、Docker、Vitest、pytest、Streamlit、Zod 等。 | Developer skill library | [Open](https://github.com/BjornMelin/dev-skills) |
+| Docker Development Skill | Docker image development skill，覆盖 Dockerfile 最佳实践、CI 测试模式和 Docker Compose 编排。 | Docker engineering skill | [Open](https://github.com/netresearch/docker-development-skill) |
+| AGENTS.md | 面向 AI coding agents 的开放 Markdown 指令格式，用于提供项目结构、构建命令、测试流程和代码风格。 | Coding agent instruction standard | [Open](https://agents.md/) |
+| AGENTS.md Generator Skill | 生成和维护 AGENTS.md 文件的 Agent Skill，支持 Claude Code、Cursor、GitHub Copilot 和其他兼容 agents。 | AGENTS.md skill | [Open](https://github.com/netresearch/agents-skill) |
+| SkillKit | 用于在 Claude Code、Cursor、Codex、Copilot 等 40+ agent 之间安装、转换和共享 portable skills 的工具。 | Skill installer / Converter | [Open](https://github.com/rohitg00/skillkit) |
+| OpenSkills | 通用 SKILL.md installer / loader，把 Anthropic-style skills 带到 Claude Code、Cursor、Windsurf、Aider、Codex 等 agent。 | Skill installer / Loader | [Open](https://github.com/numman-ali/openskills) |
+| Oh My Skills | Codex、Claude Code、Gemini 等工具可用的 skills 集合，包含 Supabase、Payload CMS 等工程场景。 | Multi-agent skill collection | [Open](https://github.com/akillness/oh-my-skills) |
+| Awesome Cursor Skills | Cursor skills 合集，收集可放入 `.cursor/skills/` 的 `SKILL.md` 文件，用于工程 workflow 和项目脚手架。 | Cursor skills list | [Open](https://github.com/spencerpauly/awesome-cursor-skills) |
+| Windsurf Agents | Windsurf agent skills、workflows 和自动化脚本集合，面向 Windsurf / Cascade 开发工作流。 | Windsurf skills / Workflows | [Open](https://github.com/zenmindhacker/windsurf-agents) |
+| Hoodini AI Agents Skills | 面向 Claude Code、GitHub Copilot、Cursor、Windsurf、Cline、Aider、Continue.dev 等 coding agents 的技能集合。 | Multi-agent coding skills | [Open](https://github.com/hoodini/ai-agents-skills) |
+| Kodu Awesome Agent Skills | 面向软件工程的 Agent Skills 列表，由 Kodus 工程团队维护，适合继续发现更多 coding skills。 | Software engineering skill index | [Open](https://github.com/kodustech/awesome-agent-skills) |
+| Awesome Agent Skills by VoltAgent | 大型 Agent Skills 索引，包含官方和社区工程 skills，可按 coding、framework、DevOps 等方向继续筛选。 | Skill index | [Open](https://github.com/VoltAgent/awesome-agent-skills) |
 
 ## Data / Research / Document Skills
 
