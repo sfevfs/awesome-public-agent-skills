@@ -224,6 +224,7 @@ A curated index of public AI agent skills, skill libraries, MCP servers, tool pa
 | Elastic MCP Server | Elastic 官方 Elasticsearch MCP server，让 AI agents 通过 MCP 查询、分析和检索 Elasticsearch indices。 | Search / Observability MCP server | [Open](https://github.com/elastic/mcp-server-elasticsearch) |
 | MiniMax MCP | MiniMax 官方 MCP server，用于接入 Text-to-Speech、image generation、video generation 和 voice cloning API。 | Media generation MCP server | [Open](https://github.com/minimax-ai/minimax-mcp) |
 | MiniMax Search MCP | MiniMax Search MCP server，提供 web search、browsing 和 image analysis 等 coding-plan 相关能力。 | Search / Vision MCP server | [Open](https://github.com/MiniMax-AI/minimax_search) |
+| RunAPI MCP | RunAPI 的 MCP server，用于让 AI agents 浏览 RunAPI 模型目录，并发起 image、video、music/audio 和 model API 任务。 | Media / model API MCP server | [Open](https://github.com/runapi-ai/mcp) |
 | XcodeBuildMCP | 面向 iOS/macOS 开发的 MCP server 和 CLI，让 AI agents 构建、测试、调试和部署 Xcode 项目。 | iOS / macOS MCP server | [Open](https://github.com/getsentry/XcodeBuildMCP) |
 | XcodeBuildMCP Website | XcodeBuildMCP 官方网站，介绍其 Xcode 自动化、模拟器、测试和部署能力。 | Documentation | [Open](https://www.xcodebuildmcp.com/) |
 | Slack MCP Plugin | Slack 官方插件配置，用于让 Cursor IDE 和 Claude Code agents 搜索消息、发送通信、管理 canvases 等。 | Slack agent plugin | [Open](https://github.com/slackapi/slack-mcp-plugin) |
