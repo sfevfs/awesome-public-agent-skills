@@ -287,6 +287,7 @@ A curated index of public AI agent skills, skill libraries, MCP servers, tool pa
 | Swell Coding Skills | 面向软件工程的 Anthropic-style skills，覆盖 TDD、Code Review、架构、GitHub Issues 项目管理和语言约定。 | Software engineering skills | [Open](https://github.com/swell-agents/coding-skills) |
 | Solid Skills | 面向 AI coding agents 的 SOLID、TDD、clean code 和专业软件设计 skills。 | Clean code / Design skills | [Open](https://github.com/ramziddin/solid-skills) |
 | Armory | 面向认真使用 AI 的开发者的生产级 coding agent skills，包含 TDD、安全、调试和开发流程。 | Engineering skill pack | [Open](https://github.com/Mathews-Tom/armory) |
+| Agent QA | 面向 Codex、Claude Code 等 coding agents 的 QA skill pack，包含自然语言 Web/移动端测试编写、结果分诊和调试修复三类 skills，并提供 33-tool MCP 接口；当前 FSL-1.1-ALv2 为 source-available。 | QA skill pack / MCP tool | [Open](https://github.com/vostride/agent-qa) |
 | Hypergiant Agent Skills | 面向 AI coding agents 的 skill 集合，包含 skill 管理、Next.js 最佳实践和安全模式等工程能力。 | Coding agent skills | [Open](https://github.com/gohypergiant/agent-skills) |
 | Softaworks Agent Toolkit | AI coding agent skills 集合，可用于 Claude Code、Claude.ai 或手动加载 `SKILL.md` 内容。 | Coding agent toolkit | [Open](https://github.com/softaworks/agent-toolkit) |
 | Iliaal AI Skills | 紧凑、偏工程决策的 coding agent skills，覆盖 React、Next.js、Node.js backend、测试和项目结构。 | Opinionated coding skills | [Open](https://github.com/iliaal/ai-skills) |
